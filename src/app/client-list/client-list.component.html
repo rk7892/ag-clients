@@ -1,0 +1,25 @@
+<button routerLink="/add-client" class="client__button float-end">Add Client</button>
+<table class="table">
+  <thead>
+    <tr class="table-bg">
+      <th>Client ID</th>
+      <th>Client Name</th>
+      <th>Client Phone</th>
+      <th>Client Email ID</th>
+      <th>Client Location</th>
+      <!-- <th class="d-lg-flex d-md-flex d-none">Email ID</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let x of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];">
+      <th>
+        <a routerLink="/client-details">Client00{{x}}</a>
+      </th>
+      <td>ABC pvt ltd</td>
+      <td>9876543210</td>
+      <td>abccompany.com</td>
+      <td>Tiruvannamalai</td>
+    </tr>
+  </tbody>
+</table>
+<router-outlet></router-outlet>

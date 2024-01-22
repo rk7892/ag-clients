@@ -1,0 +1,27 @@
+.client-header {
+    background-color: lightgray;
+}
+
+.client-header__menu>a {
+    color: black;
+    /* padding-left: 30px; */
+}
+
+.client-header__menu>a:hover {
+    background-color: lightsalmon;
+    color: white;
+}
+
+body {
+    position: relative;
+}
+
+footer {
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    height: 5rem;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
