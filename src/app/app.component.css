@@ -6,17 +6,46 @@
 .client-header__menu>a:hover {
     background-color: #f84f31;
     color: white;
-    border-radius: 4px;
+    border-radius: 3px;
     padding: 3px;
 }
-
-body {
-    position: relative;
+.footer_icon{
+    width: 30px;
+    height: 30px;
+    background-color: #CBCBCB;
+    border-radius: 20px;
 }
-
-footer {
-    height: 5rem;
+.footer_icon:hover{
+    background-color: #FF5D25;
+    color: #fff;
+}
+.fa-facebook:hover{
+    color: #fff;
+}
+.fa-facebook{
     color: black;
-    width: 100%;
-    text-align: center;
+}
+.fa-twitter:hover{
+    color: #fff;
+}
+.fa-twitter{
+    color: black;
+}
+.fa-instagram:hover{
+    color: #fff;
+}
+.fa-instagram{
+    color: black;
+}
+.fa-linkedin:hover{
+    color: #fff;
+}
+.fa-linkedin{
+    color: black;
+}
+.fa-youtube-play:hover{
+    color: #fff;
+}
+.fa-youtube-play{
+    color: black;
 }
