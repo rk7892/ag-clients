@@ -1,4 +1,7 @@
+<!-- button -->
 <button routerLink="./add-client" class="client__button float-end">Add Client</button>
+
+<!-- table -->
 <table class="table">
   <thead>
     <tr class="table-bg">
@@ -7,11 +10,10 @@
       <th>Client Phone</th>
       <th>Client Email ID</th>
       <th>Client Location</th>
-      <!-- <th class="d-lg-flex d-md-flex d-none">Email ID</th> -->
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let x of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];">
+    <tr *ngFor="let x of [1, 2, 3, 4, 5, 6, 7, 8];">
       <th>
         <a routerLink="./client-details">Client00{{x}}</a>
       </th>
@@ -22,4 +24,3 @@
     </tr>
   </tbody>
 </table>
-<!-- <router-outlet></router-outlet> -->

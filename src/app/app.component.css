@@ -1,8 +1,6 @@
 .client-header__menu>a {
     color: black;
-    /* padding-left: 30px; */
 }
-
 .client-header__menu>a:hover {
     background-color: #f84f31;
     color: white;
