@@ -1,15 +1,13 @@
-.client-header {
-    background-color: lightgray;
-}
-
 .client-header__menu>a {
     color: black;
     /* padding-left: 30px; */
 }
 
 .client-header__menu>a:hover {
-    background-color: lightsalmon;
+    background-color: #f84f31;
     color: white;
+    border-radius: 4px;
+    padding: 3px;
 }
 
 body {
@@ -17,9 +15,6 @@ body {
 }
 
 footer {
-    background-color: lightgray;
-    position: absolute;
-    bottom: 0;
     height: 5rem;
     color: black;
     width: 100%;

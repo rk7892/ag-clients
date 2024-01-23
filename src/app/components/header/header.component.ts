@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-add-client',
+  selector: 'app-header',
   standalone: true,
   imports: [CommonModule, RouterLink, RouterOutlet],
-  templateUrl: './add-client.component.html',
-  styleUrl: './add-client.component.css'
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.css'
 })
-export class AddClientComponent {
+export class HeaderComponent {
 
 }

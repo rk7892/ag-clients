@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-add-client',
+  selector: 'app-footer',
   standalone: true,
   imports: [CommonModule, RouterLink, RouterOutlet],
-  templateUrl: './add-client.component.html',
-  styleUrl: './add-client.component.css'
+  templateUrl: './footer.component.html',
+  styleUrl: './footer.component.css'
 })
-export class AddClientComponent {
+export class FooterComponent {
 
 }

@@ -1,22 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
 
-a{
+a {
     text-decoration: none;
 }
-.info-data{
+
+.info-data {
     font-size: 16px;
     font-weight: 400;
     color: #7B7B7B;
 }
-.info-label{
+
+.info-label {
     font-size: 18px;
 }
-.client__button{
-    border-radius: 15px;
-    border-color: gray;
-    background-color: rgb(0, 208, 255);
-}
-.client__button:hover{
+
+.client__button {
+    border-radius: 10px;
     background-color: #f84f31;
+    margin-bottom: 15px;
     color: white;
+}
+
+.client__button:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    height: 100vh;
+}
+
+footer {
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15) inset; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(134, 163, 243);
+    color: white;
+    text-align: center;
 }
