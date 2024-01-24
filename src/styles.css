@@ -44,3 +44,10 @@ footer {
 img{
     cursor: pointer;
 }
+input{
+    border-radius: 5px;
+}
+.bi-arrow-left{
+    font-size: 18px;
+    height: 30px;
+}
